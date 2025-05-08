@@ -2,6 +2,10 @@ plugins {
     id 'java-library'
 }
 
+compileTestJava {
+    options.encoding = 'UTF-8'
+}
+
 repositories {
     mavenCentral()
 }
